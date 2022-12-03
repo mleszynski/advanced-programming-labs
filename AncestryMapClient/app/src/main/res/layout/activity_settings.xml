@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="SearchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_life_event_tag"
+            android:text="@string/settings_life_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_life_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_life_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_life_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_fam_event_tag"
+            android:text="@string/settings_fam_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_fam_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_fam_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_fam_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_spouse_event_tag"
+            android:text="@string/settings_spouse_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_spouse_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_spouse_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_spouse_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_dad_event_tag"
+            android:text="@string/settings_dad_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_dad_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_dad_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_dad_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_mom_event_tag"
+            android:text="@string/settings_mom_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_mom_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_mom_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_mom_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_male_event_tag"
+            android:text="@string/settings_male_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_male_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_male_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_male_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_fem_event_tag"
+            android:text="@string/settings_fem_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_fem_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_fem_event_tag">
+        </TextView>
+
+        <Switch
+            android:id="@+id/settings_fem_event_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp">
+        </Switch>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/logout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_logout_tag"
+            android:text="@string/settings_logout_title"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_logout_desc"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/settings_logout_tag">
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

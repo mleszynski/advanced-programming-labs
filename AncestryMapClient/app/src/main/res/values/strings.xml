@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FMC</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="server_host">Server Host: </string>
+    <string name="server_port">Server Port: </string>
+    <string name="username">User Name: </string>
+    <string name="password">Password: </string>
+    <string name="first_name">First Name: </string>
+    <string name="last_name">Last Name: </string>
+    <string name="email">Email: </string>
+    <string name="gender">Gender: </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="login_button">Login</string>
+    <string name="fail_login">Login Failed!</string>
+    <string name="register_button">Register</string>
+    <string name="fail_register">Register Failed!</string>
+    <string name="map_activity_title">Map</string>
+    <string name="map_display1">Click on a marker</string>
+    <string name="map_display2">to see event details</string>
+    <string name="name_back_menu">Back</string>
+    <string name="name_search_menu">Search</string>
+    <string name="name_settings_menu">Settings</string>
+    <string name="person_fam_title">Family</string>
+    <string name="person_event_title">Life Events</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="spouse">Spouse</string>
+    <string name="child">Child</string>
+    <string name="settings_life_title">Life Story Lines</string>
+    <string name="settings_life_desc">SHOW LIFE STORY LINES</string>
+    <string name="settings_fam_title">Family Tree Lines</string>
+    <string name="settings_fam_desc">SHOW FAMILY TREE LINES</string>
+    <string name="settings_spouse_title">Spouse Lines</string>
+    <string name="settings_spouse_desc">SHOW SPOUSE LINES</string>
+    <string name="settings_dad_title">Father Side</string>
+    <string name="settings_dad_desc">FILTER BY FATHER SIDE OF FAMILY</string>
+    <string name="settings_mom_title">Mother Side</string>
+    <string name="settings_mom_desc">FILTER BY MOTHER SIDE OF FAMILY</string>
+    <string name="settings_male_title">Male Events</string>
+    <string name="settings_male_desc">FILTER EVENTS BASED ON GENDER</string>
+    <string name="settings_fem_title">Female Events</string>
+    <string name="settings_fem_desc">FILTER EVENTS BASED ON GENDER</string>
+    <string name="settings_logout_title">Logout</string>
+    <string name="settings_logout_desc">RETURN TO LOGIN SCREEN</string>
+</resources>
